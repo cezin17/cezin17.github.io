@@ -62,4 +62,5 @@ h2{
 
 a:hover{
     color: #db2b39;
+    cursor: pointer;
 }
