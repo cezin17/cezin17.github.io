@@ -13,7 +13,7 @@ body{
     padding: 1em 1em 3em 1em;
     margin: auto;
     width: 250px;
-    height: 300px;
+    height: 310px;
     margin-top: 60px;
     background-color: rgba(255, 255, 255, 0.075);
     border-radius: 6%;
@@ -61,6 +61,7 @@ h2{
     text-shadow: 1px 1px black;
     font-family: monospace;
     font-size: 26px;
+    margin: .22em;
 }
 
 .media{
@@ -71,7 +72,7 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding-top: 9px;
 }
