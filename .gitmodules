@@ -1,0 +1,3 @@
+[submodule "bin2dec"]
+	path = bin2dec
+	url = https://github.com/cezin17/bin2dec.git
