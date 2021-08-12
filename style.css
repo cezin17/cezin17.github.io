@@ -33,7 +33,7 @@ h2{
     margin-top: -15px;
 }
 
-.contact a, .media a{
+.portfolio a, .contact a, .media a{
     color: #f3a712;
     font-size: 30px;
     text-shadow: 1px 1px black;
@@ -87,12 +87,6 @@ p{
     cursor: pointer;
     color: #db2b39;
     text-shadow: 0px 0px 15px rgb(255 255 255 / 25%), 0px 0px 200px rgb(26 241 242 / 9%);
-}
-
-.portfolio a{
-    color: #f3a712;
-    font-size: 30px;
-    text-shadow: 1px 1px black;
 }
 
 #portcont{
