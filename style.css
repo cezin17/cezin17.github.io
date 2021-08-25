@@ -88,9 +88,10 @@ p{
 .media{
     text-align: center;
     margin-top: 180px;
+    margin-bottom: 10px;
 }
 
-a:hover:after{  
+.media a:hover:after{  
     content: attr(description);
     font-size: 10px;
     color: #f3a712;
@@ -101,9 +102,41 @@ a:hover:after{
     top: -18px;
 }
 
-a:hover{
+.media a:hover{
     color: #db2b39;
     font-size: 27px;
     text-shadow: 1px 1px black;
     text-align: center;
+}
+
+.portfolio{
+    text-align: center;
+    margin-top: -5px;
+}
+
+.portfolio a {
+    color: #f0cea0;
+    font-size: 28px;
+    text-shadow: 1px 1px black;
+    margin-right: 15px;
+    text-decoration: none;
+    position: relative;
+}
+
+.portfolio a:hover{
+    color: #f3a712;
+    font-size: 27px;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+
+.portfolio a:hover:after{
+    content: attr(description);
+    font-size: 10px;
+    color: #db2b39;
+    position: absolute;
+    bottom: 35px;
+    right: 0px;
+    left: -12px;
+    top: 38px;
 }
