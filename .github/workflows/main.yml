@@ -34,4 +34,4 @@ jobs:
           username: root
           password: cezinhajardim123
           localDir: /
-          remoteDir: /var/www/clients/client0/web1/web
+          remoteDir: /var/www/html/cezin17.github.io
