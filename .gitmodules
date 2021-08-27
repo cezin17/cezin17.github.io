@@ -4,9 +4,6 @@
 [submodule "randomNumber"]
 	path = randomNumber
 	url = https://github.com/cezin17/randomNumber.git
-[submodule "SuperCalc"]
-	path = recursiveSum
-	url = https://github.com/cezin17/recursiveSum
 [submodule "recursiveSum"]
 	path = recursiveSum
 	url = https://github.com/cezin17/recursiveSum
