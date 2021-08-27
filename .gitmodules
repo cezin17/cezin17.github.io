@@ -4,3 +4,6 @@
 [submodule "randomNumber"]
 	path = randomNumber
 	url = https://github.com/cezin17/randomNumber.git
+[submodule "SuperCalc"]
+	path = SuperCalc
+	url = https://github.com/cezin17/SuperCalc.git
