@@ -1,0 +1,9 @@
+[submodule "bin2dec"]
+	path = bin2dec
+	url = https://github.com/cezin17/bin2dec.git
+[submodule "randomNumber"]
+	path = randomNumber
+	url = https://github.com/cezin17/randomNumber.git
+[submodule "SuperCalc"]
+	path = SuperCalc
+	url
