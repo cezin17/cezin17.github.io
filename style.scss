@@ -1,0 +1,100 @@
+$primary-color: #65C8DB ;
+$dark-primary-color: #6391F2;
+$darker-primary-color: #6746EB;
+$secondary-color: #63F2BD;
+$dark-secondary-color: #5FE869;
+$black-color: #000;
+$dark-grey-color: #0a0a0a;
+$light-grey-color: #b9b8b5;
+$almost-white: #e1f1f1f1;
+$white-color: #fff;
+$bg-gradient: radial-gradient(ellipse at top right, $black-color, $dark-primary-color), radial-gradient(ellipse at bottom left, $black-color, $dark-primary-color);
+$card-gradient: radial-gradient(ellipse at top right, $secondary-color, $dark-primary-color), radial-gradient(ellipse at bottom left, $black-color, red);
+$default-font-family: 'Roboto', monospace;
+
+html {
+    height: 100%;
+}
+
+body {
+    background: $dark-grey-color;
+    font-family: $default-font-family;
+}
+
+
+.logo {
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px#0a0a0a;
+    color: $primary-color;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card {
+    display: inline-grid;
+    position: relative;
+    width: 270px;
+    height: 360px;
+    perspective: 1000px;
+    margin-top: 60px;
+    margin-right: 10px;
+    left: 100px;
+
+    &-inner {
+        border-radius: 10px;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 1.2s;
+        transform-style: preserve-3d;
+    }
+
+    &:hover &-inner {
+        transform: rotateY(180deg);
+    }
+
+    &--front, &--back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background: $card-gradient;
+        color: $black-color;
+        padding-top: 1em;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    &--front {
+    
+    }
+
+    &--back {   
+        transform: rotateY(180deg);
+
+        &_icon {
+            a {
+                display: inline-block;
+                color: $dark-grey-color;
+                transition: color .5s;
+                text-align: center;
+                margin-top: 120px;
+                margin-right: 10px;
+                font-size: 70px;
+
+                &:hover {
+                    color: $almost-white;
+                    
+                }
+            }
+        }
+    }
+}
+
+p {
+    margin: 0 auto;
+}

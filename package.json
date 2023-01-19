@@ -1,0 +1,23 @@
+{
+  "name": "cezin17.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch style.scss compiledStyle.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cezin17/cezin17.github.io.git"
+  },
+  "author": "Cezar Jardim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cezin17/cezin17.github.io/issues"
+  },
+  "homepage": "https://github.com/cezin17/cezin17.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.57.1",
+    "scss": "^0.2.4"
+  }
+}
