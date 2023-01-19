@@ -36,7 +36,7 @@ body {
     display: inline-grid;
     position: relative;
     width: 270px;
-    height: 360px;
+    height: 380px;
     perspective: 1000px;
     margin-top: 60px;
     margin-right: 10px;
@@ -64,17 +64,24 @@ body {
         backface-visibility: hidden;
         background: $card-gradient;
         color: $black-color;
-        padding-top: 1em;
+        // padding-top: em;
         border-radius: 10px;
-        font-size: 20px;
+        
     }
 
     &--front {
-    
+        font-size: 25px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;    
     }
 
     &--back {   
         transform: rotateY(180deg);
+        
+        .photo {
+            background: url(photos/photo.png);
+        }
 
         &_icon {
             a {
@@ -96,5 +103,5 @@ body {
 }
 
 p {
-    margin: 0 auto;
+
 }
