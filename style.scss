@@ -10,7 +10,7 @@ $almost-white: #e1f1f1f1;
 $white-color: #fff;
 $bg-gradient: radial-gradient(ellipse at top right, $black-color, $dark-primary-color), radial-gradient(ellipse at bottom left, $black-color, $dark-primary-color);
 $card-gradient: radial-gradient(ellipse at top right, $secondary-color, $dark-primary-color), radial-gradient(ellipse at bottom left, $black-color, red);
-$default-font-family: 'Roboto', monospace;
+$default-font-family: monospace;
 
 html {
     height: 100%;
@@ -21,24 +21,13 @@ body {
     font-family: $default-font-family;
 }
 
-
-.logo {
-    position: relative;
-    margin: auto;
-    text-decoration: none;
-    text-shadow: 1px 1px 4px#0a0a0a;
-    color: $primary-color;
-    font-size: 30px;
-    font-weight: 600;
-}
-
 .card {
     display: inline-grid;
     position: relative;
     width: 270px;
     height: 380px;
     perspective: 1000px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-right: 10px;
     left: 100px;
 
@@ -93,10 +82,9 @@ body {
                 display: inline-block;
                 color: $dark-grey-color;
                 transition: color .5s;
-                text-align: center;
-                margin-top: 120px;
-                margin-right: 10px;
-                font-size: 70px;
+                margin-top: 150px;
+                margin-right: 20px;
+                font-size: 60px;
 
                 &:hover {
                     color: $almost-white;
